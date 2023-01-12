@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  node:
+    image: vaibhavrajnathchauhan/event-ticket-booking-system:1
+    container_name: event-ticket-booking-system
+    ports:
+      - 5555:5555
+    env_file:
+      - .env
+    depends_on:
+      - redis
+
+  redis:
+    image: redis
