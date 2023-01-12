@@ -23,7 +23,7 @@ pipeline{
                 extensions: [], 
                 userRemoteConfigs: [
                     [
-                        url: 'https://github.com/vaibhavraj05/recuritmentportal.git'
+                        url: 'https://github.com/vaibhavraj05/event-ticket-booking-system.git'
                     ]
                 ]])
             }
